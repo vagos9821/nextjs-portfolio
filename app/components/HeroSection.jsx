@@ -49,10 +49,12 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <button
+              rel="noopener noreferrer"
+              target="_blank"
               onClick={() => {
                 const url = "https://lavender-wanids-69.tiiny.site/";
                 if (typeof window !== "undefined") {
-                  window.location.href = url;
+                  window.open(url, "_blank");
                 }
               }}
               className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
