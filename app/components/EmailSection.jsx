@@ -76,7 +76,7 @@ const EmailSection = () => {
               name="message"
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100  text-sm rounded-lg block w-full p-2.5"
-              placeholder="This email form doesn't actually work because I am using Github Pages as a host"
+              placeholder="This email form doesn't actually work because I am using Vercel as a host"
             ></textarea>
           </div>
           <button
