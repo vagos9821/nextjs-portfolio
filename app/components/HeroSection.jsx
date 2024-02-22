@@ -37,8 +37,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            I&apos;m a Accounting & Finance graduate. I have passion for
+            programming and keep up to date with trends in technology and
+            innovation. I love developing and problem solving.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
