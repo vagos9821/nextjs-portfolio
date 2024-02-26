@@ -28,9 +28,10 @@ const Navbar = () => {
       <div className="flex flex-wrap container lg:py-4 items-center justify-between mx-auto p-4">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-5xl text-white font-semibold flex items-center"
         >
-          VANGEL
+          <img src="/my-logo.svg" alt="logo" className="w-[48px]" />
+          ANGEL
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
